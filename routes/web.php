@@ -35,5 +35,6 @@ Route::get('/gebruikers', 'HomeController@users')->name('gebruikers');
  */
 Route::get('/groepen', 'GroupController@index')->name('groepen');
 Route::get('/groep/{id}', 'GroupController@show')->name('show-groep');
+Route::post('/groep/{id}', 'GroupController@update')->name('update-groep');
 Route::delete('/groep/{id}', 'GroupController@destroy')->name('delete-groep');
 Route::post('/groep', 'GroupController@create')->name('create-groep');
