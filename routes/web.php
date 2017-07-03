@@ -31,7 +31,7 @@ Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 Route::get('/gebruikers', 'HomeController@users')->name('gebruikers');
 
 /**
- * Routes for showing groups.
+ * Routes for showing groups. test12
  */
 Route::get('/groepen', 'GroupController@index')->name('groepen');
 Route::get('/groep/{id}', 'GroupController@show')->name('show-groep');
